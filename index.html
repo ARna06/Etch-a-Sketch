@@ -7,7 +7,27 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body>
-    
+<body class="container">
+    <div class="header">
+        <span class="title">Etch-a-Sketch</span>
+        <span class="description">Hover the cursor over the grid to see its color change.</span>
+    </div>
+    <div class="mainContainer">
+        <div class="Settings">
+            <div class="gridDimension">
+                <div class="text">
+                    Change the number of smaller boxes required 
+                </div>
+                <div class="specifications">
+                    <input type="text" class="input1">
+                    <button class="button">Submit</button>
+                </div>
+            </div>
+            <button class="randomizer">Randomize the colors</button>
+            <button class="eraser">Erase colors</button>
+            <button class="variableBrightness">Vary brighness of colors</button>
+        </div>
+        <div class="sketchingZone"></div>
+    </div>
 </body>
 </html>
